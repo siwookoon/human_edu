@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        // $(function(){
+        $(document).ready(function(){
+            //직접 선택자
+            $(".wrap-1").css("border","1px dotted orange");
+            //근접 선택자
+            $(".wrap-1 p").css("backgroud-color","yellow");
+
+            $(".active").next("p").css("backgroud-color","yellow");
+
+            $(".wrap-1 p").eq(1).css("font-size","5px");
+        })
+        
+    </script>
+</head>
+<body>
+    <div class="wrap-1">
+        <p>텍스트1</p>
+        <p class ="active">내용</p>
+        <p>
+            <a href="www.naver.com">네이버</a>
+        </p>
+            <input type="text" value="HELLO"/>
+    </div>
+    <div class="wrap-2">
+        <p>내용5</p>
+        <p>내용6</p>
+
+    </div>
+</body>
+</html>

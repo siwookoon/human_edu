@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+</head>
+<body>
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+   <input type="text" id="intText"> <br> <br> <br>
+   <button id="btnplus">눌러욧+1</button> <br> <br> <br>
+   <input type="text" id="intText2"> 
+
+   <script>
+      $(document)
+      .on("click","#btnplus",function(){
+         let n = $("#intText").val();
+         if(isNaN(n) == true){
+            $("#intText2").val("숫자를 입력해주세요");
+         }
+         else{
+            n=parseInt(n)+1;
+            $("#intText2")
+         }
+      })
+   </script>
+</body>
+</html>

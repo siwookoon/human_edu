@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn").on("click",function(){
+                let ts = $(this);
+                if(ts.text() == "숨김") {
+                    $(".wrap").css("display","none");
+                    $(".wrap").slideUp(1000, );
+
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <P class="btnWrap">
+        <button class="">숨김</button>
+    </P>
+    <div class="wrap">
+        <p>내용 1</p>
+        <p>내용 2</p>
+
+    </div>
+    
+</body>
+</html>
