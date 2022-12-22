@@ -16,7 +16,7 @@
 :point_right: Code for the overall part of the Springboot.(스프링부트의 전반적인 코드)
 - Language you use : `JSP`, `XML`, `JAVA`, `JAVASCRIPT`, `JQUERY`, `AJAX`
 
-## R
+## R💻
 :point_right: Code for the overall part of the R.(R의 전반적인 코드)
 - package you use : `dplyr`,`ggplot2`,`KoNLP`,`ggmap`,`googleVis`
 - Reference Book : 처음 시작하는 R 데이터 분석 (강진희, 엄동란)
